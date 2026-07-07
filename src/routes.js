@@ -59,7 +59,7 @@ export const routes = [
       const { id } = req.params
       const { title, description } = req.body
 
-      if (!title || !description) {
+      if (!title && !description) {
         return res
           .writeHead(400)
           .end(JSON.stringify({ message: 'Title and description are required' }))
