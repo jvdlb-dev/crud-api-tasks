@@ -1,7 +1,7 @@
 {
   "name": "api-tasks",
   "version": "1.0.0",
-  "types": "modules",
+  "type": "module",
   "description": "",
   "main": "index.js",
   "scripts": {
